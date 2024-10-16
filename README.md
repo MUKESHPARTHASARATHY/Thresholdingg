@@ -24,8 +24,8 @@ Use Global thresholding to segment the image
 Use Otsu's method to segment the image and display results.
 
 ## Program
-### Name:MUKESH P
-### Register number:212222240068
+### Name: MUKESH P
+### Register number: 212222240068
 ```
 import cv2
 import numpy as np
@@ -41,7 +41,7 @@ plt.xticks([]), plt.yticks([])
 plt.show()
 
 # Read the Image and convert to grayscale
-image = cv2.imread('central.jpg')
+image = cv2.imread('VJK.jpg')
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -83,18 +83,26 @@ plt.show()
 ## Output
 
 ### Original Image
-![central](https://github.com/user-attachments/assets/8edeff83-7ee8-4c23-927d-fc249f20b163)
+
+![WhatsApp Image 2024-10-16 at 16 09 25_f2c97fbb](https://github.com/user-attachments/assets/cf612649-78ec-4342-be31-95f8b424bbc9)
+
+
 
 ### Global Thresholding
-![image](https://github.com/user-attachments/assets/11779448-01f8-4aa2-8082-133207f0db5c)
+![WhatsApp Image 2024-10-16 at 16 09 31_c80a48d2](https://github.com/user-attachments/assets/e7e98349-7698-4cec-8d7a-3ffed391eb2e)
+
 
 
 ### Adaptive Thresholding
-![image](https://github.com/user-attachments/assets/0b0b5a84-b2bb-4298-933e-a3181d62f036)
+![WhatsApp Image 2024-10-16 at 16 09 36_a5c7021e](https://github.com/user-attachments/assets/7b805a07-a62a-425f-9a95-b2bf6e6bddfd)
+
+
 
 
 ### Optimum Global Thesholding using Otsu's Method
-![image](https://github.com/user-attachments/assets/03212b7b-b8c8-4dde-a910-f42c5e255c8d)
+
+![WhatsApp Image 2024-10-16 at 16 09 41_832ce7c0](https://github.com/user-attachments/assets/16a162ff-fcc8-4bc3-8345-2a847eb42d42)
+
 
 
 
